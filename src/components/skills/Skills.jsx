@@ -7,7 +7,7 @@ import { FaCode } from "react-icons/fa";
 import { FaTools } from "react-icons/fa";
 import { GiSkills } from "react-icons/gi";
 import { CiLaptop } from "react-icons/ci";
-import SkillInfoCard from "./skillInfoCard/skillInfoCard";
+import SkillInfoCard from "./skillInfoCard/InfoCard";
 
 const Skills = () => {
   const [selectedSkill, setSelectedSkill] = useState(SKILLS[0]);
