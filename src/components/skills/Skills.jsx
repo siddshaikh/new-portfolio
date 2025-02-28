@@ -6,6 +6,7 @@ import { CgWebsite } from "react-icons/cg";
 import { FaCode } from "react-icons/fa";
 import { FaTools } from "react-icons/fa";
 import { GiSkills } from "react-icons/gi";
+import { CiLaptop } from "react-icons/ci";
 import SkillInfoCard from "./skillInfoCard/skillInfoCard";
 
 const Skills = () => {
@@ -23,6 +24,8 @@ const Skills = () => {
         return <FaTools />;
       case "GiSkills":
         return <GiSkills />;
+      case "CiLaptop":
+        return <CiLaptop />;
       default:
         return null;
     }

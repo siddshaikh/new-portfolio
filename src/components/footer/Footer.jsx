@@ -1,7 +1,9 @@
 import "./Footer.css";
 
 const Footer = () => {
-  return <div className="footer">&copy; 2024 Sidd Shaikh</div>;
+  const currentYear = new Date().getFullYear();
+
+  return <div className="footer">&copy; {currentYear} Sidd Shaikh</div>;
 };
 
 export default Footer;

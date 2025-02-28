@@ -9,6 +9,7 @@ const Navbar = () => {
   const toggleMenu = () => {
     setOpenMenu(!openMenu);
   };
+
   return (
     <>
       <MobileNav isOpen={openMenu} toggleMenu={toggleMenu} />
@@ -17,30 +18,34 @@ const Navbar = () => {
           <h1 className="logo">Sidd&apos;s Portfolio</h1>
           <ul>
             <li>
-              <a className="menu-item" href="#">
+              <a className="menu-item" href="#home">
                 Home
               </a>
             </li>
             <li>
-              <a className="menu-item" href="#">
+              <a className="menu-item" href="#skills">
                 Skills
               </a>
             </li>
             <li>
-              <a className="menu-item" href="#">
+              <a className="menu-item" href="#work-experience">
                 Work Experience
               </a>
             </li>
             <li>
-              <a className="menu-item" href="#">
+              <a className="menu-item" href="#contact">
                 Contact Me
               </a>
             </li>
-            <button className="contact-button" onClick={() => {}}>
-              Hire Me
-            </button>
+            <a
+              className="contact-button"
+              href="/sidd_resume.pdf"
+              download="Sidd_Resume.pdf"
+            >
+              Resume
+            </a>
           </ul>
-          <button className="menu-button" onClick={toggleMenu}>
+          <button className="contact-button">
             <span style={{ fontSize: "1.8rem" }}>
               {openMenu ? <IoCloseOutline /> : <CiMenuFries />}
             </span>

@@ -11,10 +11,18 @@ function App() {
     <>
       <Navbar />
       <div className="container">
-        <HeroSection />
-        <Skills />
-        <WorkExperience />
-        <Contact />
+        <section id="home">
+          <HeroSection />
+        </section>
+        <section id="skills">
+          <Skills />
+        </section>
+        <section id="work-experience">
+          <WorkExperience />
+        </section>
+        <section id="contact">
+          <Contact />
+        </section>
       </div>
       <Footer />
     </>

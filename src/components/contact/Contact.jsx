@@ -2,6 +2,7 @@ import "./Contact.css";
 import ContactInfoCard from "./contactInfoCard/ContactInfoCard";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { FiGithub } from "react-icons/fi";
+import { FaLinkedinIn } from "react-icons/fa6";
 import ContactForm from "./contactForm/ContactForm";
 
 const Contact = () => {
@@ -17,6 +18,10 @@ const Contact = () => {
           <ContactInfoCard
             icon={<FiGithub />}
             text={"https://github.com/siddshaikh?tab=repositories"}
+          />
+          <ContactInfoCard
+            icon={<FaLinkedinIn />}
+            text={"https://www.linkedin.com/in/siddeek-shaikh"}
           />
         </div>
         <div style={{ flex: 1 }}>

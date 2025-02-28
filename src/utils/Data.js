@@ -6,17 +6,37 @@ export const SKILLS = [
       { skill: "HTML5", percentage: "80%" },
       { skill: "CSS3 (SASS)", percentage: "80%" },
       { skill: "JavaScript ES6/7", percentage: "90%" },
+      { skill: "Typescript", percentage: "70%" },
       { skill: "React.JS", percentage: "80%" },
-      { skill: "Next.JS", percentage: "70%" },
+      { skill: "Next.JS", percentage: "80%" },
     ],
   },
   {
     title: "Back-end",
     icon: "FaCode",
     skills: [
-      { skill: "Node.js / Express.js", percentage: "70%" },
-      { skill: "Python / Django", percentage: "40%" },
-      { skill: "Mongo DB", percentage: "50%" },
+      { skill: "Node.js / Express.js", percentage: "60%" },
+      { skill: "Python / Fast API", percentage: "80%" },
+      { skill: "Mongo DB", percentage: "60%" },
+      { skill: "PostgreSQL", percentage: "70%" },
+      { skill: "Elastic Search", percentage: "70%" },
+      { skill: "GraphQL", percentage: "70%" },
+      { skill: "Redis", percentage: "70%" },
+      { skill: "Jinja", percentage: "70%" },
+    ],
+  },
+  {
+    title: "Framework/library",
+    icon: "CiLaptop",
+    skills: [
+      { skill: "Tailwind CSS", percentage: "95%" },
+      { skill: "Material UI", percentage: "90%" },
+      { skill: "ShadCN UI", percentage: "90%" },
+      { skill: "Radix UI", percentage: "75%" },
+      { skill: "Chart JS", percentage: "90%" },
+      { skill: "D3", percentage: "80%" },
+      { skill: "Framer Motion", percentage: "80%" },
+      { skill: "SASS", percentage: "80%" },
     ],
   },
   {
@@ -24,10 +44,11 @@ export const SKILLS = [
     icon: "FaTools",
     skills: [
       { skill: `Git & GitHub`, percentage: `90%` },
-      { skill: "Tailwind CSS", percentage: "95%" },
-      { skill: "Material UI", percentage: "75%" },
       { skill: "Redux & Redux Toolkit", percentage: "70%" },
       { skill: "Firebase V9", percentage: "70%" },
+      { skill: "Axios", percentage: "80%" },
+      { skill: "Docker", percentage: "80%" },
+      { skill: "Linux", percentage: "50%" },
     ],
   },
   {
@@ -42,7 +63,7 @@ export const SKILLS = [
 export const WORK_EXPERIENCE = [
   {
     title: "Frontend Developer at Perception and Quant",
-    date: "April 2023 - Present",
+    date: "October 2023 - Present",
     responsibilities: [
       "Admin Panel Creation: Led the development of a sleek and responsive admin interface using Next.js and Material UI, coupled with Tailwind CSS for efficient styling.",
       "Chart.js Integration: Integrated Chart.js for dynamic data visualization, deploying various charts and graphs to provide insightful representations within the admin panel.",
@@ -51,13 +72,12 @@ export const WORK_EXPERIENCE = [
     ],
   },
   {
-    title: "Intern Frontend Developer at Perception and Quant",
-    date: "October 2023 - April 2023",
+    title: "Intern Support Jquery",
+    date: "Feb 2023 - July 2023",
     responsibilities: [
-      "Data-driven UIs: Built responsive React applications with dynamic charts and tables using Material UI and Tailwind CSS. Managed extensive datasets fetched via Axios APIs for intuitive data visualization",
-      "API Integration: Proficiently integrated external APIs, transforming fetched data into interactive UI components for enhanced user insights.",
-      "Contextual State Management: Implemented React Context Hooks to efficiently manage and render large data sets, optimizing performance.",
-      "Responsive UX Design: Crafted responsive designs ensuring seamless user experiences across diverse devices and screen sizes.",
+      "Developed interactive hotel website features using jQuery to enhance user experience, including dynamic room selection, booking forms, and real-time availability checks.",
+      "Worked on DOM manipulation and event handling to create a seamless and responsive interface for the hotel website.",
+      "Optimized jQuery code for better performance and faster load times across multiple devices and browsers.",
     ],
   },
 ];
